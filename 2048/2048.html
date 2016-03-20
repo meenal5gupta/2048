@@ -1,0 +1,47 @@
+<html>
+<head>
+
+
+<script src=  "javascript/2048.js" type="text/javascript"></script>
+ <link href="css/2048.css" rel="stylesheet">
+ </head>
+
+<!-- <header>
+<span id = "reset"</a></span>
+ <span id = "score"> 0</span>
+ </header> -->
+ <body>
+        <header>
+        <button id="score" type="button">Score: 0</button>
+        <button id = "reset" type="button">Reset</button>
+        <button id = "undo" type="button">Undo</button>
+            
+        </header>
+        <main id="game">
+            <div class="tile tile_2" ></div>
+            <div class="tile" ></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </main>
+    </body>
+<script>
+function onBodyLoad(){
+	game.init();
+}
+window.addEventListener('load', onBodyLoad);
+</script>
+</body>
+
+</html>
